@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FindOrdersByCustomerReactiveUseCase - flujos reactivos" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-03T01:47:59" hostname="NELSON-ORTIZ" time="1.438">
+  <properties/>
+  <testcase name="Emite cada orden del cliente como elemento del Flux" classname="com.bancolombia.orders.application.usecase.FindOrdersByCustomerReactiveUseCaseTest" time="1.419"/>
+  <testcase name="Propaga error cuando el repositorio falla" classname="com.bancolombia.orders.application.usecase.FindOrdersByCustomerReactiveUseCaseTest" time="0.009"/>
+  <testcase name="Lanza NullPointerException cuando customerId es nulo" classname="com.bancolombia.orders.application.usecase.FindOrdersByCustomerReactiveUseCaseTest" time="0.003"/>
+  <testcase name="Emite Flux vacio cuando el cliente no tiene ordenes" classname="com.bancolombia.orders.application.usecase.FindOrdersByCustomerReactiveUseCaseTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

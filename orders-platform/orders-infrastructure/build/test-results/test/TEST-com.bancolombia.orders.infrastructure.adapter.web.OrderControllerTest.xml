@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OrderController - adaptador web" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-03T01:44:27" hostname="NELSON-ORTIZ" time="0.52">
+  <properties/>
+  <testcase name="POST /api/v1/orders retorna 422 cuando dominio lanza EmptyOrderException" classname="com.bancolombia.orders.infrastructure.adapter.web.OrderControllerTest" time="0.461"/>
+  <testcase name="POST /api/v1/orders retorna 400 cuando customerId esta vacio" classname="com.bancolombia.orders.infrastructure.adapter.web.OrderControllerTest" time="0.019"/>
+  <testcase name="GET /api/v1/orders retorna 200 con lista vacia" classname="com.bancolombia.orders.infrastructure.adapter.web.OrderControllerTest" time="0.036"/>
+  <system-out><![CDATA[20:44:24.317 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bancolombia.orders.infrastructure.adapter.web.OrderControllerTest]: OrderControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:44:24.532 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bancolombia.orders.infrastructure.OrdersApplication for test class com.bancolombia.orders.infrastructure.adapter.web.OrderControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-06-02T20:44:25.048-05:00  INFO 18304 --- [orders-platform] [    Test worker] c.b.o.i.adapter.web.OrderControllerTest  : Starting OrderControllerTest using Java 17.0.19 with PID 18304 (started by NelsonAlejandroOrtiz in C:\Users\NelsonAlejandroOrtiz\Desktop\Repos\plan-java-30\orders-platform\orders-infrastructure)
+2026-06-02T20:44:25.050-05:00 DEBUG 18304 --- [orders-platform] [    Test worker] c.b.o.i.adapter.web.OrderControllerTest  : Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-06-02T20:44:25.051-05:00  INFO 18304 --- [orders-platform] [    Test worker] c.b.o.i.adapter.web.OrderControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2026-06-02T20:44:27.586-05:00  INFO 18304 --- [orders-platform] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-02T20:44:27.587-05:00  INFO 18304 --- [orders-platform] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-02T20:44:27.591-05:00  INFO 18304 --- [orders-platform] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-06-02T20:44:27.637-05:00  INFO 18304 --- [orders-platform] [    Test worker] c.b.o.i.adapter.web.OrderControllerTest  : Started OrderControllerTest in 2.997 seconds (process running for 4.668)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

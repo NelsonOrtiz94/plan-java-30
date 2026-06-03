@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Order - reglas de negocio del dominio" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-06-03T01:44:18" hostname="NELSON-ORTIZ" time="0.106">
+  <properties/>
+  <testcase name="Calcula total correctamente con multiples items" classname="com.bancolombia.orders.domain.OrderTest" time="0.08"/>
+  <testcase name="Lanza InvalidQuantityException cuando cantidad es cero" classname="com.bancolombia.orders.domain.OrderTest" time="0.004"/>
+  <testcase name="Genera orderId no nulo" classname="com.bancolombia.orders.domain.OrderTest" time="0.006"/>
+  <testcase name="Lanza excepcion al cancelar orden ya cancelada" classname="com.bancolombia.orders.domain.OrderTest" time="0.002"/>
+  <testcase name="Cancela correctamente una orden PENDING" classname="com.bancolombia.orders.domain.OrderTest" time="0.004"/>
+  <testcase name="Lanza InvalidQuantityException cuando cantidad es negativa" classname="com.bancolombia.orders.domain.OrderTest" time="0.001"/>
+  <testcase name="Estado inicial debe ser PENDING" classname="com.bancolombia.orders.domain.OrderTest" time="0.001"/>
+  <testcase name="Lanza EmptyOrderException cuando no hay items" classname="com.bancolombia.orders.domain.OrderTest" time="0.0"/>
+  <testcase name="Calcula total correctamente con un item" classname="com.bancolombia.orders.domain.OrderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
